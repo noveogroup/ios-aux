@@ -10,12 +10,11 @@
 		48586DA917D4E44700BE10F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48586DA817D4E44700BE10F8 /* UIKit.framework */; };
 		48586DAB17D4E44700BE10F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48586DAA17D4E44700BE10F8 /* Foundation.framework */; };
 		48586DAD17D4E44700BE10F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48586DAC17D4E44700BE10F8 /* CoreGraphics.framework */; };
-		48586DB317D4E44700BE10F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48586DB117D4E44700BE10F8 /* InfoPlist.strings */; };
-		48586DB517D4E44700BE10F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48586DB417D4E44700BE10F8 /* main.m */; };
-		48586DB917D4E44700BE10F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48586DB817D4E44700BE10F8 /* AppDelegate.m */; };
-		48586DBB17D4E44700BE10F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 48586DBA17D4E44700BE10F8 /* Default.png */; };
-		48586DBD17D4E44700BE10F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48586DBC17D4E44700BE10F8 /* Default@2x.png */; };
-		48586DBF17D4E44700BE10F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48586DBE17D4E44700BE10F8 /* Default-568h@2x.png */; };
+		48586DE517D4E5C700BE10F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48586DDE17D4E5C700BE10F8 /* main.m */; };
+		48586DE617D4E5C700BE10F8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48586DE017D4E5C700BE10F8 /* Default-568h@2x.png */; };
+		48586DE717D4E5C700BE10F8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 48586DE117D4E5C700BE10F8 /* Default.png */; };
+		48586DE817D4E5C700BE10F8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48586DE217D4E5C700BE10F8 /* Default@2x.png */; };
+		48586DF117D4E6D900BE10F8 /* acceleration.m in Sources */ = {isa = PBXBuildFile; fileRef = 48586DF017D4E6D900BE10F8 /* acceleration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,15 +22,13 @@
 		48586DA817D4E44700BE10F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		48586DAA17D4E44700BE10F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		48586DAC17D4E44700BE10F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		48586DB017D4E44700BE10F8 /* Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
-		48586DB217D4E44700BE10F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		48586DB417D4E44700BE10F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		48586DB617D4E44700BE10F8 /* Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Example-Prefix.pch"; sourceTree = "<group>"; };
-		48586DB717D4E44700BE10F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		48586DB817D4E44700BE10F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48586DBA17D4E44700BE10F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		48586DBC17D4E44700BE10F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		48586DBE17D4E44700BE10F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		48586DDE17D4E5C700BE10F8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48586DE017D4E5C700BE10F8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		48586DE117D4E5C700BE10F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		48586DE217D4E5C700BE10F8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		48586DE317D4E5C700BE10F8 /* Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Example-Info.plist"; sourceTree = "<group>"; };
+		48586DEF17D4E6CA00BE10F8 /* acceleration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acceleration.h; sourceTree = "<group>"; };
+		48586DF017D4E6D900BE10F8 /* acceleration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = acceleration.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +48,10 @@
 		48586D9C17D4E44700BE10F8 = {
 			isa = PBXGroup;
 			children = (
-				48586DAE17D4E44700BE10F8 /* Example */,
+				48586DDD17D4E5C700BE10F8 /* Internal */,
+				48586DE417D4E5C700BE10F8 /* External */,
+				48586DF217D4EDC800BE10F8 /* Common */,
+				48586DDF17D4E5C700BE10F8 /* Resources */,
 				48586DA717D4E44700BE10F8 /* Frameworks */,
 				48586DA617D4E44700BE10F8 /* Products */,
 			);
@@ -75,28 +75,56 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		48586DAE17D4E44700BE10F8 /* Example */ = {
+		48586DDD17D4E5C700BE10F8 /* Internal */ = {
 			isa = PBXGroup;
 			children = (
-				48586DB717D4E44700BE10F8 /* AppDelegate.h */,
-				48586DB817D4E44700BE10F8 /* AppDelegate.m */,
-				48586DAF17D4E44700BE10F8 /* Supporting Files */,
+				48586DDE17D4E5C700BE10F8 /* main.m */,
 			);
-			path = Example;
+			path = Internal;
 			sourceTree = "<group>";
 		};
-		48586DAF17D4E44700BE10F8 /* Supporting Files */ = {
+		48586DDF17D4E5C700BE10F8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				48586DB017D4E44700BE10F8 /* Example-Info.plist */,
-				48586DB117D4E44700BE10F8 /* InfoPlist.strings */,
-				48586DB417D4E44700BE10F8 /* main.m */,
-				48586DB617D4E44700BE10F8 /* Example-Prefix.pch */,
-				48586DBA17D4E44700BE10F8 /* Default.png */,
-				48586DBC17D4E44700BE10F8 /* Default@2x.png */,
-				48586DBE17D4E44700BE10F8 /* Default-568h@2x.png */,
+				48586DE017D4E5C700BE10F8 /* Default-568h@2x.png */,
+				48586DE117D4E5C700BE10F8 /* Default.png */,
+				48586DE217D4E5C700BE10F8 /* Default@2x.png */,
+				48586DE317D4E5C700BE10F8 /* Example-Info.plist */,
 			);
-			name = "Supporting Files";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48586DE417D4E5C700BE10F8 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				48586DED17D4E6BD00BE10F8 /* ios-aux */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		48586DED17D4E6BD00BE10F8 /* ios-aux */ = {
+			isa = PBXGroup;
+			children = (
+				48586DEE17D4E6BD00BE10F8 /* acceleration */,
+			);
+			name = "ios-aux";
+			path = "../../ios-aux";
+			sourceTree = "<group>";
+		};
+		48586DEE17D4E6BD00BE10F8 /* acceleration */ = {
+			isa = PBXGroup;
+			children = (
+				48586DEF17D4E6CA00BE10F8 /* acceleration.h */,
+				48586DF017D4E6D900BE10F8 /* acceleration.m */,
+			);
+			path = acceleration;
+			sourceTree = "<group>";
+		};
+		48586DF217D4EDC800BE10F8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48586DB317D4E44700BE10F8 /* InfoPlist.strings in Resources */,
-				48586DBB17D4E44700BE10F8 /* Default.png in Resources */,
-				48586DBD17D4E44700BE10F8 /* Default@2x.png in Resources */,
-				48586DBF17D4E44700BE10F8 /* Default-568h@2x.png in Resources */,
+				48586DE617D4E5C700BE10F8 /* Default-568h@2x.png in Resources */,
+				48586DE717D4E5C700BE10F8 /* Default.png in Resources */,
+				48586DE817D4E5C700BE10F8 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,23 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48586DB517D4E44700BE10F8 /* main.m in Sources */,
-				48586DB917D4E44700BE10F8 /* AppDelegate.m in Sources */,
+				48586DE517D4E5C700BE10F8 /* main.m in Sources */,
+				48586DF117D4E6D900BE10F8 /* acceleration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		48586DB117D4E44700BE10F8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48586DB217D4E44700BE10F8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		48586DC017D4E44700BE10F8 /* Debug */ = {
@@ -241,9 +257,10 @@
 		48586DC317D4E44700BE10F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
-				INFOPLIST_FILE = "Example/Example-Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Resources/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -252,9 +269,10 @@
 		48586DC417D4E44700BE10F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Example/Example-Prefix.pch";
-				INFOPLIST_FILE = "Example/Example-Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Resources/Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
